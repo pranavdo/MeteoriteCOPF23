@@ -16,9 +16,9 @@ function Model() {
       <div className="content">
         <div className="input-section">
           <h3>Input</h3>
-          <input type="text" placeholder="eccentricity" />
+          <input type="text" placeholder="semi-major axis" />
           <input type="text" placeholder="sidereal orbital period" />
-          <input type="text" placeholder="data arc length" />
+          <input type="text" placeholder="aphelion distance" />
           {/* Button to reveal the comet text */}
           <button onClick={showCometText}>Classify</button>
         </div>
