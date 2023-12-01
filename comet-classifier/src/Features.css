@@ -21,11 +21,11 @@
   }
   
   .feature-card {
-    background-color: white;
+    background: rgba(255, 255, 255, 0.1);
     color: black;
     border-radius: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    padding: 30px;
     margin: 20px;
     width: 390px;
     text-align: left;
@@ -33,10 +33,10 @@
   
   .feature-card h3 {
     font-size: 30px;
-    color: #333;
+    color: white;
   }
   
   .feature-card p {
     font-size: 25px;
-    color: #666;
+    color: lightgrey;
   }
