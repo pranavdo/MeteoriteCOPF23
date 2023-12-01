@@ -13,6 +13,10 @@ const questionsAnswers = [
   {
     question: "Are you going to add more features?",
     answer: "Yes, we plan to add more features as we collect more data and improve our algorithms."
+  },
+  {
+    question: "What did the comet say to the asteroid?",
+    answer: "You rock, but I'm out of this world!"
   }
 ];
 
