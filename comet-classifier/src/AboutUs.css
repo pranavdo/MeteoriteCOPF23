@@ -1,0 +1,35 @@
+.about-us {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    text-align: center;
+    background-size: cover; /* Cover the entire space */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    background-color: #3E3770;
+    /* background-image: url('./images/features-page-background.png'); */
+  }
+  
+  .about-us-header img {
+    width: 70%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px; /* Adds some space below the image */
+  }
+  
+  .about-us h2 {
+    margin-top: -10px;
+    margin-bottom: 20px; /* Space below the header */
+  }
+  
+  .about-us p {
+    font-size: 15px;
+    padding: 4px 100px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
