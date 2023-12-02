@@ -11,7 +11,6 @@
     background-position: center; /* Center the background image */
     background-repeat: no-repeat;
     background-color: #3E3770;
-    /* background-image: url('./images/features-page-background.png'); */
   }
   
   .about-us-header img {
@@ -33,3 +32,7 @@
     color: white;
   }
   
+  .about-us-header img {
+    width: 45%; /* Adjust the percentage to your preference */
+    height: auto; /* This will maintain the aspect ratio of the image */
+  }

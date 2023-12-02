@@ -9,6 +9,7 @@ function AboutUs() {
       <div className="about-us-header">
       <img src={aboutUsImage} alt="About Us" />
       </div>
+      <p>Pictured: Pranav Dogra, Rachel Hu, Eugene Ng, Francisco Martinez Iniguez, Morgan Dehdashti, Henry Cen, Henry Hong, Joanne Tran</p>
       <p>Our mission is to provide intuitive and accurate classification tools for astronomical bodies.
         Our dedicated team of engineers and data scientists from the University of California, Berkeley has worked tirelessly to bring you state-of-the-art technology for comet classification and analysis.
         Through our website, we aim to make it easy for professionals and enthusiasts alike to access high-quality data and insights about comets.
