@@ -36,6 +36,7 @@
     font-size: 18px;
     transition: background-color 0.3s ease;
     position: relative;
+    border-radius: 8px;
   }
   
   .faq-question:hover,
