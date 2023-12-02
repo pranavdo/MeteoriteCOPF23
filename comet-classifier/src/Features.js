@@ -4,7 +4,7 @@ import './Features.css';
 function Features() {
   return (
     <div className="features-container">
-      <h2>Features</h2>
+      <h1>Features</h1>
       <div className="feature-cards-container">
         <div className="feature-card">
           <h3>Semi-Major Axis</h3>
