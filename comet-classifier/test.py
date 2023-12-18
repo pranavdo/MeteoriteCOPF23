@@ -1,7 +1,11 @@
 from flask import Flask, request, jsonify, send_from_directory
-
+from model import model
 app = Flask(__name__)
-model = print()
+from flask_cors import CORS
+CORS(app)
+
+
+predictor = model()
 @app.route('/')
 def index():
     return send_from_directory('build', 'index.html')
@@ -18,13 +22,14 @@ def serve_css(filename):
 def model_predict():
     try:
         data = request.get_json()
+        print(data)
         axis = float(data['axis'])
         distance = float(data['distance'])
         period = float(data['period'])
-        prediction = model([[axis, distance, period]])
-        return jsonify({'prediction': int(prediction[0])})
-    
+        prediction_result = predictor.predict([[axis, distance, period]])
+        return jsonify({'prediction': int(prediction_result[0])})
     except Exception as e:
+        print("Exception:", e)  # Log exception details
         return jsonify({'error': str(e)}), 400
 
 if __name__ == '__main__':
